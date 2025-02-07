@@ -8,3 +8,10 @@ module "ec2_instance" {
   instance_type_value = "t2.micro"
   subnet_id_value = "subnet-019ea91ed9b5252e7". # replace this
 }
+
+#so here entire things resources are modulirized....
+./modules/ec2_instance
+./modules/s3
+./modules/vpc
+
+What devops eng have to do is ....simply create other main.tf file....call these modules and pass the values accordingly/
