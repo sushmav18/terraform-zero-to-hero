@@ -39,8 +39,8 @@ There are multiple reasons why Terraform is used over the other IaC tools but be
 
 Terraform is an Infrastructure as Code (IaC) tool that helps DevOps engineers automate infrastructure provisioning and management. It is widely used because of its declarative approach, cloud-agnostic nature, and efficient infrastructure lifecycle management.
 
-✅ Why is Terraform Important?
-Infrastructure as Code (IaC):
+✅ **Why is Terraform Important**?
+**Infrastructure as Code (IaC):**
 Defines infrastructure using code, enabling version control and repeatability.
 Multi-Cloud Support:
 Works with AWS, Azure, Google Cloud, Kubernetes, and more.
