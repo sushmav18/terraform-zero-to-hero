@@ -26,6 +26,7 @@ resource "aws_instance" "example2" {
   provider = "aws.us-west-2"
 }
 
+----------------------- my example ------------
 
 provider "aws" {
   alias = "us-east-1"
