@@ -25,7 +25,7 @@ resource "aws_instance" "example2" {
   instance_type = "t2.micro"
   provider = "aws.us-west-2"
 }
-```
+
 
 provider "aws" {
   alias = "us-east-1"
@@ -50,3 +50,4 @@ resource "aws_instance" "sush-inst3" {
     key_name = "ec1-key1"
     provider = "aws.eu-west-1"
 }
+```
